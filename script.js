@@ -1,3 +1,10 @@
-var e = document.getElementById("choose");
-var strUser = e.options[e.selectedIndex].text;
-console.log(strUser);   
+function update() {
+    var select = document.getElementById('choose');
+    var option = select.options[select.selectedIndex];
+
+    var lol=option.text;
+    console.log(option.text);
+    document.body.style.backgroundColor=lol;
+    console.log(document.body.style.backgroundColor=lol);
+}
+update()
