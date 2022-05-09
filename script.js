@@ -1,4 +1,6 @@
-function update() {
-    var sel1 = document.getElementById('choose').value;
-    document.body.style.backgroundColor = sel1;
+function update()
+{
+    var change = document.getElementById("choose").value;
+    document.body.style.backgroundColor=change;
 }
+update()
